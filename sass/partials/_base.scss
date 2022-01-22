@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+main {
+  background-color: $color-background-primary;
+}
+
+header,
+footer {
+  background-color: $color-background-secondary;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: map-get($textsizes, small);
+}

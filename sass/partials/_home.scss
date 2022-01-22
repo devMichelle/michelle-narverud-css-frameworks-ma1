@@ -1,0 +1,36 @@
+.main__header {
+  font-size: map-get($textsizes, page-heading);
+  color: $color-text-page-heading;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.row {
+  gap: 25px;
+  margin: 0px auto;
+}
+
+.card {
+  border-radius: 12px;
+  border-style: none;
+  min-height: 200px;
+  //width: 100%;
+}
+
+.card:hover {
+  transform: scale(-0.99);
+}
+
+.card--default {
+  background-color: $color-background-secondary;
+}
+
+.card--border {
+  background-color: $color-white;
+  border: solid 3px $color-pink;
+}
+
+.card--solid {
+  background-color: $color-pink;
+  border: solid 3px $color-white;
+}

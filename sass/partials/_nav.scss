@@ -1,0 +1,12 @@
+.navbar-brand {
+  font-size: map-get($textsizes, logo);
+}
+
+.navbar__menu {
+  font-family: $font-menu;
+  text-transform: uppercase;
+}
+
+.active > .nav-link {
+  color: $color-pink !important;
+}
