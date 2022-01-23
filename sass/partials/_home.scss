@@ -1,20 +1,19 @@
 .main__header {
   font-size: map-get($textsizes, page-heading);
   color: $color-text-page-heading;
-  padding: 40px 0px;
+  padding: 40px 0px 28px;
   text-align: center;
 }
 
-.row {
-  gap: 25px;
-  margin: 0px auto;
+.card-deck {
+  margin: 13px 0px !important;
 }
 
 .card {
   border-radius: 12px;
   border-style: none;
-  min-height: 200px;
-  //width: 100%;
+  min-height: 25vh;
+  margin: 0px !important;
 }
 
 .card:hover {
